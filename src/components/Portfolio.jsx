@@ -22,8 +22,8 @@ const Portfolio = () => {
     {
       id: 3,
       src: portfolio,
-      href: "https://github.com/HasithaEdiriweera",
-      demo: "https://github.com/HasithaEdiriweera",
+      href: "https://github.com/HasithaEdiriweera/react-portfolio",
+      demo: "https://github.com/HasithaEdiriweera/react-portfolio",
     },
     {
       id: 4,
