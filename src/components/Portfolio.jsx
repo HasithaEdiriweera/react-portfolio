@@ -21,15 +21,15 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: reactWeather,
-      href: "https://github.com/HasithaEdiriweera/react-weather-app",
-      demo: "https://react-weather-app-25n4.vercel.app/",
-    },
-    {
-      id: 4,
       src: portfolio,
       href: "https://github.com/HasithaEdiriweera",
       demo: "https://github.com/HasithaEdiriweera",
+    },
+    {
+      id: 4,
+      src: reactWeather,
+      href: "https://github.com/HasithaEdiriweera/react-weather-app",
+      demo: "https://react-weather-app-25n4.vercel.app/",
     },
     {
       id: 5,
@@ -54,7 +54,7 @@ const Portfolio = () => {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src, href, demo }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+            <div key={id} className="shadow-md shadow-gray-500 rounded-lg">
               <img
                 src={src}
                 alt=""
